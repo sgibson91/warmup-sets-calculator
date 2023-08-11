@@ -1,0 +1,13 @@
+name: Ensure clean Notebooks
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  ensure-clean-notebooks:
+    uses: sgibson91/.github/blob/main/.github/workflows/clean-notebook-outputs.yaml@main
