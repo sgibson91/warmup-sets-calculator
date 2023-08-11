@@ -10,4 +10,4 @@ on:
 
 jobs:
   ensure-clean-notebooks:
-    uses: sgibson91/.github/blob/main/.github/workflows/clean-notebook-outputs.yaml@main
+    uses: sgibson91/.github/.github/workflows/clean-notebook-outputs.yaml@main
