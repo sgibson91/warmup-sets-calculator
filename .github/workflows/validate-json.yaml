@@ -1,6 +1,7 @@
 name: Validate JSON files
 
 on:
+  workflow_dispatch:
   push:
     branches:
       - main
