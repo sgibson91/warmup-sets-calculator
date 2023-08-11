@@ -21,4 +21,4 @@ jobs:
         with:
           python-version: "3.10"
       - run: pip install jsonschema
-      - run: python validate-json.py
+      - run: python validate_json.py
